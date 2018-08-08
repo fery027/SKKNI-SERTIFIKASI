@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sertifikasi SKKNI</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|Source+Sans+Pro" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"
+			  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+			  crossorigin="anonymous"></script>
+
+	<script>
+$( function() {
+	$( "#datepicker" ).datepicker();
+} );
+</script>
+</head>
+<body>
+	<!--
+		nama, nik, hp, email, skema sertifikasi, tempat uji kompetentsi, rekomendasi, tanggal terbit sertifikat, tanggal lahir, organisasi
+	-->
+	<!--<div id="wrapper">-->
+			<h1 align="center">SERTIFIKAT SKKNI</h1>
+			<p>
+				<a href="med.php?mod=peserta&act=form">Tambah Peserta</a> |
+				<a href="med.php?mod=peserta">Lihat Daftar Peserta</a>
+			</p>
+			<?php
+				include"content.php";
+			?>
+
+		</div>
+	</div>
+
+</body>
+</html>
